@@ -9,5 +9,7 @@ class ThingForm(forms.ModelForm):
         widgets = {'description': forms.Textarea()}
 
     quantity = forms.IntegerField(
-        label='quantity'
+        label='quantity',
+        max_value = 50,
+        min_value = 0
         )
