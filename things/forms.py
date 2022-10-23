@@ -10,4 +10,4 @@ class ThingForm(forms.ModelForm):
 
     quantity = forms.IntegerField(
         label='quantity',
-        widgets = {'quantity': forms.NumberInput()}
+        widgets = {'quantity': forms.NumberInput()})
